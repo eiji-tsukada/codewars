@@ -9,6 +9,3 @@ export class Kata {
         return parseInt(Array.from(num.toString().split(''), x => parseInt(x) ** 2).join(''))
     }
 }
-
-const num = 9119;
-console.log(Kata.squareDigits(num));
