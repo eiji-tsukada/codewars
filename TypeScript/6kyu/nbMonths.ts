@@ -56,5 +56,3 @@ export function nbMonths(startPriceOld: number, startPriceNew: number, savingper
 
   return [month, Math.round(oldPrice + saving - newPrice)];
 }
-
-console.log(nbMonths(8000, 8000, 1000, 1.5));
